@@ -1,0 +1,13 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+[dn]
+C=US
+ST=Missouri
+L=Saint Louis
+O=LocalDev
+OU=VVVdeveloper
+emailAddress=vagrant@localhost
+CN=test2.dev
